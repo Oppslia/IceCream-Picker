@@ -2,7 +2,7 @@ def openingStatement():
   print("\nType the number corresponding to your favorite ice cream\nIf you don't see your flavor listed, you can add one by typing 'add'\nType 'quit' when done \n")
 flavors = ["Vanilla", "Chocolate", "Strawberry", "Mint Chocolate Chip", "Chocolate Chip Cookie Dough", "Cookies and Cream"]
 counts = [0,0,0,0,0,0]
-loopcount = 0 #stops loop
+loopcount = 0#stops loop
 
 
 
@@ -41,7 +41,7 @@ while loopcount == 0:
     for num in counts:
       personList = ["are", "people","enjoy"] # multiple people
       if num == 0:
-        thisworks += 1 #this simple to remove 0's???? This variable keeps the lists parrallel, while not printing flavors that nobody picked.
+        thisworks += 1 #this simple to remove 0's???? This variable keeps the lists parallel, while not printing flavors that nobody picked.
       else:
         if num == 1:
           personList = ["is", "person","enjoys"] #single person
